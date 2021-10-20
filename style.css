@@ -1,0 +1,15 @@
+
+
+ div#resultado {
+    font-size: larger;
+    text-transform: uppercase;
+ }
+
+
+ option {
+     color:black;
+ }
+
+ select {
+     color: white;
+ }

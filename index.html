@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+    <h1>JoKenPo</h1>
+
+    <div id="jogador1"> Jogador1 - Selecione:
+        <select name="jogada1" id="jogada1">
+            
+            <option value="pedra">Pedra</option>
+            <option value="papel">Papel</option>
+            <option value="tesoura">Tesoura</option>
+        </select>
+    </div>
+
+    <br>
+
+    <div id="jogador2"> Jogador2 - Selecione:
+        <select name="jogada2" id="jogada2">
+            
+            <option value="pedra">Pedra</option>
+            <option value="papel">Papel</option>
+            <option value="tesoura">Tesoura</option>
+        </select>
+
+    </div>
+
+    <br>
+
+    <input type="button" value="Resultado" onclick="exibirResultado()">
+    <br>
+    <br>
+    
+    <div id="resultado" >
+        
+    </div>
+    <br>
+
+    <script src="jokenpo.js"></script>
+    
+</body>
+</html>
